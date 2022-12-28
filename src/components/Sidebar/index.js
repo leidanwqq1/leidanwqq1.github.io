@@ -8,11 +8,11 @@ import {
   faHome,
   faSuitcase,
   faUser,
+  faIdCard
 } from '@fortawesome/free-solid-svg-icons'
 import {
   faGithub,
-  faLinkedin,
-  faGoogle
+  faLinkedin
 } from '@fortawesome/free-brands-svg-icons'
 
 const Sidebar = () => (
@@ -71,7 +71,7 @@ const Sidebar = () => (
           rel="noreferrer"
           href="https://docs.google.com/document/d/1Ss3gY8pgbPCu8T5OpPl0GMWA2KJaT8pRV1hc7MRnuWY/edit?usp=sharing"
         >
-          <FontAwesomeIcon icon={faGoogle} color="#4d4d4e" />
+          <FontAwesomeIcon icon={faIdCard} color="#4d4d4e" />
         </a>
       </li>
     </ul>

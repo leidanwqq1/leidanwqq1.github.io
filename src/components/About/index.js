@@ -2,6 +2,12 @@ import { useEffect, useState } from 'react'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 import Loader from 'react-loaders'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {
+  faBriefcase,
+  faCode,
+  faUniversity
+} from '@fortawesome/free-solid-svg-icons'
 
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -27,28 +33,45 @@ const About = () => {
               idx={15}
             />
           </h1>
-          <p>
-          Experience <hr/>
-          2022.01 - now | China <hr/>
-          Superswap(Decentralized Exchange) - Full-stack Blockchain Developer <hr/>
-          Link: getsuperswap.com <hr/>
-          Github: https://github.com/leidanwqq1/Superswap <hr/>
+
+          <p align="LEFT" style={{fontSize:"14px", fontWeight:"Bold", margin:"18px 0 -6px 0"}}>
+          <FontAwesomeIcon icon={faBriefcase} />&nbsp;&nbsp;Experience
+          </p>
+          <p style={{lineHeight:"22px"}}>
+            Superswap(Decentralized Exchange) - Full-stack Blockchain Developer <br/>
+            <div>
+              <span>Link:&nbsp;</span>
+              <a className='link-font' target="_blank" rel="noreferrer" href="https://getsuperswap.com">
+                getsuperswap.com
+              </a>
+            </div>
+            Main contents:<br/>
+            <ul style={{marginTop:"0px"}}>
+              <li>Implement smart contracts: swap, add liquidity and remove liquidity.</li>
+              <li>Test the smart contracts thoroughly using the Hardhat.</li>
+              <li>Design a user-friendly interface using React.</li>
+              <li>Set up a continuous integration and continuous deployment pipeline.</li>
+              <li>Monitor and maintain the Superswap platform over time.</li>
+            </ul>
+          </p>
                     
-          <hr/>
-          Languages & Frameworks<hr/>
-          Web: Javascript, NodeJS, React, HTML, CSS <hr/>
-          Blockchain: Solidity, Openzeppelin, Remix, Hardhat & Ethers<hr/>
-          Human: English & Chinese<hr/>
-
-          <hr/>
-          Education<hr/>
-          Master of Engineering - Tongji University, China<hr/>
-          Bachelor of Engineering - Tongji University, China<hr/>
-
+          <p align="LEFT" style={{fontSize:"14px", fontWeight:"Bold", margin:"18px 0 -6px 0"}}>
+          <FontAwesomeIcon icon={faCode} />&nbsp;&nbsp;Languages & Frameworks
           </p>
-          <p align="LEFT">
-            
+          <p style={{lineHeight:"22px"}}>
+          Web: Javascript, NodeJS, React, HTML, CSS <br/>
+          Blockchain: Solidity, Openzeppelin, Remix, Hardhat & Ethers <br/>
+          Human: English & Chinese <br/>
           </p>
+          
+          <p align="LEFT" style={{fontSize:"14px", fontWeight:"Bold", margin:"18px 0 -6px 0"}}>
+          <FontAwesomeIcon icon={faUniversity} />&nbsp;&nbsp;Education
+          </p>
+          <p style={{lineHeight:"22px"}}>
+          Master of Engineering - Tongji University, China <br/>
+          Bachelor of Engineering - Tongji University, China
+          </p>
+
         </div>
 
       </div>
