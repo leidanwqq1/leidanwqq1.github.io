@@ -47,7 +47,7 @@ const Contact = () => {
               idx={15}
             />
           </h1>
-          <p>
+          <p style={{fontSize:"14px"}}>
             I am interested in remote blockchain development opportunities.
             <br />
             If you have any request or question, don't hesitate to contact me.
