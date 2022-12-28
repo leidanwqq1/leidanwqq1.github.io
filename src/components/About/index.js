@@ -34,10 +34,10 @@ const About = () => {
             />
           </h1>
 
-          <p align="LEFT" style={{fontSize:"14px", fontWeight:"Bold", margin:"18px 0 -6px 0"}}>
+          <p align="LEFT" style={{fontSize:"16px", fontWeight:"Bold", margin:"18px 0 -6px 0"}}>
           <FontAwesomeIcon icon={faBriefcase} />&nbsp;&nbsp;Experience
           </p>
-          <p style={{fontSize:"12px", lineHeight:"22px"}}>
+          <p style={{fontSize:"14px", lineHeight:"22px"}}>
             Superswap(Decentralized Exchange) - Full-stack Blockchain Developer <br/>
             <div>
               <span>Link:&nbsp;</span>
@@ -55,19 +55,19 @@ const About = () => {
             </ul>
           </p>
                     
-          <p align="LEFT" style={{fontSize:"14px", fontWeight:"Bold", margin:"18px 0 -6px 0"}}>
+          <p align="LEFT" style={{fontSize:"16px", fontWeight:"Bold", margin:"18px 0 -6px 0"}}>
           <FontAwesomeIcon icon={faCode} />&nbsp;&nbsp;Languages & Frameworks
           </p>
-          <p style={{fontSize:"12px", lineHeight:"22px"}}>
+          <p style={{fontSize:"14px", lineHeight:"22px"}}>
           Web: Javascript, NodeJS, React, HTML, CSS <br/>
           Blockchain: Solidity, Openzeppelin, Remix, Hardhat & Ethers <br/>
           Human: English & Chinese <br/>
           </p>
           
-          <p align="LEFT" style={{fontSize:"14px", fontWeight:"Bold", margin:"18px 0 -6px 0"}}>
+          <p align="LEFT" style={{fontSize:"16px", fontWeight:"Bold", margin:"18px 0 -6px 0"}}>
           <FontAwesomeIcon icon={faUniversity} />&nbsp;&nbsp;Education
           </p>
-          <p style={{fontSize:"12px", lineHeight:"22px"}}>
+          <p style={{fontSize:"14px", lineHeight:"22px"}}>
           Master of Engineering - Tongji University, China <br/>
           Bachelor of Engineering - Tongji University, China
           </p>
