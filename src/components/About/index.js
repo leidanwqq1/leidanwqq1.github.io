@@ -8,6 +8,7 @@ import {
   faCode,
   faUniversity
 } from '@fortawesome/free-solid-svg-icons'
+import Background from '../../assets/images/background.png'
 
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -69,9 +70,13 @@ const About = () => {
           </p>
           <p style={{fontSize:"14px", lineHeight:"22px"}}>
           Master of Engineering - Tongji University, China <br/>
-          Bachelor of Engineering - Tongji University, China
+          Bachelor of Engineering - Hunan University, China
           </p>
 
+        </div>
+
+        <div className='background-cont'>
+          <img className="background" src={Background} alt="Background" />
         </div>
 
       </div>

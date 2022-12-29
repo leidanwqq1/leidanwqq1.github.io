@@ -93,7 +93,6 @@ const Contact = () => {
           <br />
           Hangzhou, Zhejiang
           <br />
-          China <br />
           <span>leidanwqq@gmail.com</span>
         </div>
         <div className="map-wrap">

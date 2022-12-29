@@ -1,17 +1,31 @@
 
 .about-page {
+  overflow: hidden;
+
   .text-zone {
-    position: absolute;
+    float: left;
     left: 10%;
     top: 50%;
     transform: translateY(-50%);
-    width: 100%;
+    width: 200px;
     max-height: 90%;
   }
   .link-font {
-    width: 100%;
+    width: 50%;
     color: white;
     text-decoration: none;
+  }
+
+  .background-cont {
+    margin-left: 0px;
+    height: 100%;
+    top: 0;
+    padding-top: 10%;
+  }
+  
+  .background {
+    width: 400px;
+    margin-left: calc(60% - 80px);
   }
 
 }
